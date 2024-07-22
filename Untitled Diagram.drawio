@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T09:19:13.416Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="pv0jiDJAf-P6p7GYPiKQ" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T09:23:16.785Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="eUWNTkkz6JushjRtSZtD" version="24.7.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="872" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1699" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -55,6 +55,9 @@
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-0" value="Feed the text given in address to browser&#39;s default search engine" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="715" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-2" target="45_Z2AzZZh3Wi8lfXX-m-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-2" value="DNS Lookup" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="17.5" y="880" width="395" height="430" as="geometry" />
         </mxCell>
@@ -87,6 +90,12 @@
         </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-15" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="958" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-18" value="&lt;div&gt;Opening of a socket + TLS handshake&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="17.5" y="1390" width="690" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-29" value="&lt;ol&gt;&lt;li&gt;Browser receives IP address and sends a ClientHello message with its TLS version.&lt;/li&gt;&lt;li&gt;The server responds with a ServerHello message with TLS version and selected cipher algorithms.&lt;/li&gt;&lt;li&gt;The client verifies the server&#39;s digital certificate, then encrypt string for determining symmetric key with server&#39;s public key.&lt;/li&gt;&lt;li&gt;The server decrypt with private key to generate symmetric key.&lt;/li&gt;&lt;li&gt;TLS handshake made with the help of symmetric key.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="45_Z2AzZZh3Wi8lfXX-m-18">
+          <mxGeometry x="-20" y="18" width="710" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
