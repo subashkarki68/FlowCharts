@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T10:01:11.212Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="KvXn9PJ2hHfKK4bMlgfa" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T10:02:34.657Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="paEZ68QCrUsCOTR2es7k" version="24.7.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1917" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1585" dy="1547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -109,11 +109,16 @@
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-29" target="45_Z2AzZZh3Wi8lfXX-m-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-34" target="45_Z2AzZZh3Wi8lfXX-m-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-34" target="45_Z2AzZZh3Wi8lfXX-m-40">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.0000000000002" y="2001.7391304347825" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1725" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-34" value="Cache available&amp;nbsp;&lt;div&gt;in&amp;nbsp;&lt;/div&gt;&lt;div&gt;browser&amp;nbsp;&lt;/div&gt;&lt;div&gt;and not expired?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="1650" width="150" height="150" as="geometry" />
@@ -121,11 +126,8 @@
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-36" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="75" y="1620" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-37" value="Serve the website from&lt;div&gt;the browser&#39;s cache&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="1690" width="190" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-39" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="1688" width="40" height="30" as="geometry" />
+          <mxGeometry x="380" y="1690" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-40" target="45_Z2AzZZh3Wi8lfXX-m-53">
           <mxGeometry relative="1" as="geometry" />
