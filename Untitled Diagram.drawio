@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T09:38:02.773Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="TkzQsl24yP0pa-_9wvrE" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T10:01:11.212Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="KvXn9PJ2hHfKK4bMlgfa" version="24.7.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1917" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,6 +127,9 @@
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-39" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="1688" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="45_Z2AzZZh3Wi8lfXX-m-40" target="45_Z2AzZZh3Wi8lfXX-m-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-40" value="The server treats as a /GET request for url entered in browser. And sends the index page to the Client as a response including headers like&amp;nbsp;Content-Type." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-20" y="1870" width="315" height="60" as="geometry" />
         </mxCell>
@@ -147,6 +150,12 @@
         </mxCell>
         <mxCell id="45_Z2AzZZh3Wi8lfXX-m-49" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;GET,&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;POST&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;HEAD&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PUT&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;DELETE&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="45_Z2AzZZh3Wi8lfXX-m-47">
           <mxGeometry x="-24" y="10" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-53" value="Parsing Contents" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-187.5" y="2010" width="650" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="45_Z2AzZZh3Wi8lfXX-m-55" value="&lt;ol&gt;&lt;li&gt;Render engine get contents from networking layer in 8KB chunks.&lt;/li&gt;&lt;li&gt;Render engine parse HTML documents and convert elements to DOM nodes called content tree.&lt;/li&gt;&lt;li&gt;Render engine parse style data to create another tree called render tree.&lt;/li&gt;&lt;li&gt;Layout process to give each node exact coordinates where it should appear on screen.&lt;/li&gt;&lt;li&gt;The render tree will be traversed and each node will be painted using UI backend layer. This stage is called painting.&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="45_Z2AzZZh3Wi8lfXX-m-53">
+          <mxGeometry x="-15" y="10" width="680" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
